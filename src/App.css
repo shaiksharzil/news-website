@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+}
+.logo{
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5px;
+}
+.logo1{
+    background-color: #fff;
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 2px;
+}
+.latest{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+}
+.nav-link, .dropdown-item{
+    cursor: pointer;
+}
+.dropdown-menu{
+    height: 400px;
+    overflow-y: scroll;
+}
+#news-card{
+    background-color: white;
+    color: black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25), inset 5px 5px 15px rgba(255, 255, 255, 0.25);
+    border: none;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 800px){
+    .dropdown-menu{
+        height: 200px;
+    }
+}
