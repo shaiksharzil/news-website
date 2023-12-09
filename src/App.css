@@ -49,8 +49,25 @@ html,body{
     justify-content: space-between;
     align-items: center;
 }
+.ri-menu-search-line{
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+}
 @media screen and (max-width: 800px){
     .dropdown-menu{
         height: 200px;
+    }
+    #news-card{
+        width: 335px;
+    }
+    .logo1{
+        padding: 0.5px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px){
+    #news-card{
+        width: 350px;
     }
 }
